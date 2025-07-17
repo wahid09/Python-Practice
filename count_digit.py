@@ -1,5 +1,9 @@
 import math
-
+"""
+Count digit from a given number
+input 8767
+output 4
+"""
 def count_digits(n: int) -> int:
     power = int(math.log10(n))
     return power + 1
