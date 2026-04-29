@@ -24,3 +24,5 @@ load_balancer = WeightedRoundRobin(servers, weights)
 for i in range(7):
     server = load_balancer.get_next_server()
     print(f"Request {i + 1} -> {server}")
+
+
