@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+confluent-kafka[schemaregistry]
+orjson                    # Required by JSONSerializer / JSONDeserializer
+python-dotenv
+pydantic
